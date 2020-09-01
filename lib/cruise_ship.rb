@@ -16,4 +16,10 @@ def select_winner(passengers)
   p winner
 end
 
-select_winner()
+select_winner(    passengers = {
+    suite_a: "Amanda Presley",
+    suite_b: "Seymour Hoffman",
+    suite_c: "Alfred Tennyson",
+    suite_d: "Charlie Chaplin",
+    suite_e: "Crumpet the Elf"
+    })
